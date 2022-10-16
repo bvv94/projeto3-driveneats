@@ -1,0 +1,3 @@
+function selecionado(){
+    alert ('oi');
+}

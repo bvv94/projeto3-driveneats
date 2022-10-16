@@ -21,7 +21,6 @@ body {
     color: #FFFFFF;
     position: fixed;
     top: 0;
-  /*  left: center;*/
     height: 92px;
     width: 414px;
     display: flex;
@@ -30,6 +29,7 @@ body {
     font-family: 'roboto';
     font-weight: 400;
     font-size: 18px;
+    box-shadow: 4px 3px 4px rgba(0, 0, 0, 0.2);
 }
 
 .nome {
@@ -61,14 +61,14 @@ body {
 }
 .correr{
     display: flex;
-    margin-left: 19px;
+    margin-right: 19px;
     overflow-x:scroll;
     
 }
 .opcoes{
     width: 172px;
     height: 216px;
-    margin-right: 16px;
+    margin-left: 16px;
     border-radius: 9px;
     background-color: #ffffff;
     display: flex;
@@ -76,6 +76,7 @@ body {
     justify-content: space-around;
     align-items: space-around;
     padding: 14px 14px;
+    box-shadow: 1px 1px 4px 1px #cbcbcb;
     }
 .corpo img{
     width: 144px;
