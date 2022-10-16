@@ -59,25 +59,6 @@ body {
 ::-webkit-scrollbar {
     width: 0px;
 }
-.correr{
-    display: flex;
-    margin-right: 19px;
-    overflow-x:scroll;
-    
-}
-.opcoes{
-    width: 172px;
-    height: 216px;
-    margin-left: 16px;
-    border-radius: 9px;
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: space-around;
-    padding: 14px 14px;
-    box-shadow: 1px 1px 4px 1px #cbcbcb;
-    }
 .corpo img{
     width: 144px;
     height: 87px;
@@ -104,6 +85,31 @@ body {
     color: #000000;
     line-height: 19px;
 }
+
+.correr{
+    display: flex;
+    margin-right: 19px;
+    overflow-x:scroll;
+    
+}
+.opcoes{
+    width: 172px;
+    height: 216px;
+    margin-left: 16px;
+    border-radius: 9px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: space-around;
+    padding: 14px 14px;
+    box-shadow: 1px 1px 4px 1px #cbcbcb;
+    }
+
+.bordaverde{
+    border: 5px solid green;
+}
+
 .botaofinalizar{
     width: 414px;
     height: 92px;
