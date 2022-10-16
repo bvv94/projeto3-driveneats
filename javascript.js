@@ -9,9 +9,8 @@ function pratoselecionado(pratomarcado) {
     seta.classList.remove("ok");
     seta.classList.add("okgreen");
     prato = document.querySelector("nomeopcao");
-    alert(prato);
-
 }
+
 function bebidaselecionada(bebidamarcado) {
     const sel = document.querySelector(".opcoes");
     bebidamarcado.classList.add("bordaverde");
