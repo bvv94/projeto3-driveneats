@@ -21,7 +21,7 @@ body {
     color: #FFFFFF;
     position: fixed;
     top: 0;
-    left: center;
+  /*  left: center;*/
     height: 92px;
     width: 414px;
     display: flex;
@@ -46,20 +46,24 @@ body {
 }
 .escolha{
     margin-top: 31px;
-    background-color: coral;
 }
 .subtitulo{
-    background-color: lightcoral;
     margin-top: 50px;
     margin-bottom: 17px;
+    margin-left: 19px;
     font-family: 'righteous';
     font-size: 26px;
     font-weight: 400;
     color: #333333;
 }
+::-webkit-scrollbar {
+    width: 0px;
+}
 .correr{
-    background-color: aquamarine;
     display: flex;
+    margin-left: 19px;
+    overflow-x:scroll;
+    
 }
 .opcoes{
     width: 172px;
